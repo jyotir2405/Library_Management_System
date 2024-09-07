@@ -1,0 +1,113 @@
+.heading {
+    font-family: papyrus;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+    color: white;
+}
+
+.links {
+    border: 2px solid black;
+    padding: 25px 10px;
+    border-radius: 35px;
+    background-color: white;
+}
+
+.links2 {
+    padding-left: 465px;
+    background-color: white;
+}
+
+.href {
+    padding: 0px 30px;
+    text-decoration: none;
+    font-size: larger;
+    border-radius: 35px;
+    padding: 5px 30px;
+    background-color: white;
+}
+
+.href1 {
+    padding: 0px 30px;
+    text-decoration: none;
+    font-size: larger;
+    border-radius: 35px;
+    padding: 5px 30px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 35px;
+}
+
+a:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 35px;
+    padding: 5px 30px;
+}
+
+.form {
+    margin-top: 50px;
+    margin-left: 510px;
+}
+
+table {
+    border: 1px solid black;
+    padding: 50px 50px;
+    border-radius: 30px;
+    border-spacing: 35px;
+    box-shadow: 0 0.5em 1.5em -0.4em;
+    background-color: white;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+input[type=date] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url('image.avif');
+}
+
+.button1 {
+    padding: 10px 130px;
+    font-size: 15px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}

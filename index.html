@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+        Library Management System
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="heading">
+        <h1>Library Management System</h1>
+    </div>
+    <div class="links">
+        <div class="links2">
+            <a href="index.html" class="href" style="background-color: black; color: white;">Insert</a>
+            <a href="show.html" class="href">Show</a>
+            <a href="search.html" class="href">Search</a>
+            <a href="update.html" class="href">Update</a>
+            <a href="delete.html" class="href">Delete</a>
+        </div>
+    </div>
+    <div class="form">
+        <form method="post" action="insert.php">
+            <table class="table">
+                <tr>
+                    <td class="right">Book ID</td>
+                    <td class="left"><input type="number" name="id" placeholder="Enter Book ID" required></td>
+                </tr>
+                <tr>
+                    <td class="right">Name</td>
+                    <td class="left"><input type="text" name="name" placeholder="Enter Name Of Book" required></td>
+                </tr>
+                <tr>
+                    <td class="right">Issue Date</td>
+                    <td class="left"><input type="date" name="issue" required></td>
+                </tr>
+                <tr>
+                    <td class="right">Return Date</td>
+                    <td class="left"><input type="date" name="return" required></td>
+                </tr>
+                <tr>
+                    <td class="center" colspan="2"><input type="submit" class="button1">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="center" colspan="2"><input type="reset" class="button1">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>
